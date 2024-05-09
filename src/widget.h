@@ -17,7 +17,12 @@ public:
     Widget(QWidget *parent = nullptr);
     ~Widget();
 
+    void mousePressEvent(QMouseEvent *event);
+    void mouseReleaseEvent(QMouseEvent *event);
+    void mouseMoveEvent(QMouseEvent *event);
+
 private:
     Ui::Widget *ui;
+    QPoint diff_;
 };
 #endif // WIDGET_H
