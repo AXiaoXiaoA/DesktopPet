@@ -1,6 +1,7 @@
 <RCC>
     <qresource prefix="/nilu">
         <file>models/nilu/1.png</file>
+        <file>models/nilu/2.png</file>
         <file>models/nilu/3.png</file>
         <file>models/nilu/4.png</file>
         <file>models/nilu/5.png</file>
@@ -299,7 +300,6 @@
         <file>models/nilu/298.png</file>
         <file>models/nilu/299.png</file>
         <file>models/nilu/300.png</file>
-        <file>models/nilu/2.png</file>
         <file>models/nilu/301.png</file>
         <file>models/nilu/302.png</file>
         <file>models/nilu/303.png</file>

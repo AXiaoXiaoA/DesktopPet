@@ -1,4 +1,4 @@
-QT += core gui
+QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -10,13 +10,13 @@ CONFIG += c++17
 
 SOURCES += \
     src/main.cpp \
-    src/widget.cpp
+    src/desktoppet.cpp
 
 HEADERS += \
-    src/widget.h
+    src/desktoppet.h
 
 FORMS += \
-    src/widget.ui
+    src/desktoppet.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
