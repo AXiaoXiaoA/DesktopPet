@@ -24,5 +24,6 @@ public:
 private:
     Ui::Widget *ui;
     QPoint diff_;
+    int idx;
 };
 #endif // WIDGET_H
